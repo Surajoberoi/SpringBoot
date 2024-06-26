@@ -4,6 +4,10 @@ metadata:
   name: SpringBoot
   annotations:
     github.com/project-slug: Surajoberoi/SpringBoot
+  tags:
+    - java
+  links:
+    - url: http://localhost:8080/swagger-ui.html
 spec:
   type: service
   lifecycle: development
