@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: SpringBoot
+  annotations:
+    github.com/project-slug: Surajoberoi/SpringBoot
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - java
+  links:
+    - url: http://localhost:8080/swagger-ui.html
+spec:
+  type: service
+  lifecycle: development
+  owner: Suraj
